@@ -1,57 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Your Name | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arshi Ansari | Portfolio</title>
+    <style>
+        :root {
+            --primary: #2d3436;
+            --accent: #0984e3;
+            --text: #636e72;
+            --bg: #f5f6fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: var(--text);
+            background: var(--bg);
+        }
+
+        header {
+            background: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            border-bottom: 3px solid var(--accent);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 2rem;
+        }
+
+        h1 { color: var(--primary); margin-bottom: 0.5rem; }
+        h2 { color: var(--accent); border-bottom: 2px solid #ddd; padding-bottom: 0.5rem; }
+        
+        .contact-info { margin-bottom: 2rem; }
+        .contact-info a { color: var(--accent); text-decoration: none; margin: 0 10px; }
+
+        .section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .skill-tag {
+            background: #e1f0ff;
+            color: var(--accent);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .job { margin-bottom: 1.5rem; }
+        .job-title { font-weight: bold; color: var(--primary); }
+        .date { font-style: italic; color: #999; }
+
+        footer { text-align: center; padding: 2rem; color: #999; }
+    </style>
 </head>
 <body>
 
-  <header>
-    <h1>Your Name</h1>
-    <p>Digital Marketer | Student | Creator</p>
-  </header>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am a passionate digital marketer with skills in social media marketing,
-      ads, and content creation. I love building creative campaigns.
-    </p>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Social Media Marketing</li>
-      <li>Facebook & Instagram Ads</li>
-      <li>Content Creation</li>
-      <li>Basic Web Development</li>
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Jewellery Ad Campaign</h3>
-      <p>Created targeted ads for jewellery brand with audience research.</p>
+<header>
+    <h1>ARSHI ANSARI</h1>
+    <p>SEO Executive | Digital Marketer</p>
+    <div class="contact-info">
+        <a href="mailto:arshiansari.career@gmail.com">Email</a> | 
+        <a href="tel:9838222315">9838222315</a> | 
+        <a href="https://www.linkedin.com/in/arshi-ansari-">LinkedIn</a>
     </div>
+</header>
 
-    <div class="project">
-      <h3>Portfolio Website</h3>
-      <p>Designed and deployed a personal portfolio using Vercel.</p>
-    </div>
-  </section>
+<div class="container">
+    
+    <section class="section">
+        <h2>Professional Summary</h2>
+        <p>Detail-oriented BCA graduate with skills in SEO, web development, and digital marketing. Knowledge of on-page SEO, keyword research, content optimization, and basic technical SEO. Foundational knowledge in HTML, .NET, Python, and Java. [cite: 7, 8, 9]</p>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: your@email.com</p>
-    <p>Instagram: @yourhandle</p>
-  </section>
+    <section class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-tag">On-Page SEO [cite: 12]</div>
+            <div class="skill-tag">Keyword Research [cite: 12]</div>
+            <div class="skill-tag">Content Optimization [cite: 12]</div>
+            <div class="skill-tag">HTML [cite: 13]</div>
+            <div class="skill-tag">WordPress [cite: 14]</div>
+            <div class="skill-tag">Video editing</div>
+            <div class="skill-tag">Meta Ads </div>
+            <div class="skill-tag">MS Office [cite: 14]</div>
+        </div>
+    </section>
 
-  <footer>
-    <p>© 2026 Your Name</p>
-  </footer>
+    <section class="section">
+        <h2>Experience</h2>
+        <div class="job">
+            <div class="job-title">E-commerce Business [cite: 33]</div>
+            <ul>
+                <li>Managed product listings with SEO-friendly descriptions [cite: 34]</li>
+                <li>Handled keyword-based product titles and customer queries [cite: 35]</li>
+                <li>Coordinated inventory and order fulfillment [cite: 36]</li>
+            </ul>
+        </div>
+        <div class="job">
+            <div class="job-title">AI Content Writing Internship [cite: 27]</div>
+            <p>InAmigos Foundation - Practice on SEO, SMM, and Content Writing [cite: 23, 27]</p>
+        </div>
+        <div class="job">
+            <div class="job-title">Teaching Experience (5 Years) [cite: 30]</div>
+            <ul>
+                <li>Delivered structured lessons and improved student performance [cite: 31]</li>
+                <li>Developed communication and problem-solving skills [cite: 32]</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Education</h2>
+        <div class="job">
+            <div class="job-title">Bachelor of Computer Applications (BCA) [cite: 16]</div>
+            <p>Dr. Virendra Swaroop College of Management Studies, Kanpur [cite: 17]</p>
+            <p class="date">Year: 2024 | CGPA: 8.77 [cite: 18]</p>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    &copy; 2026 Arshi Ansari - Digital Marketer Portfolio
+</footer>
 
 </body>
 </html>
