@@ -61,27 +61,14 @@ sections.forEach(section => {
   sectionObserver.observe(section);
 });
 
-// Unique Canvas Ribbon Cursor
+// Custom Cursor
 const cursorDot = document.querySelector('.cursor-dot');
-const canvas = document.getElementById('cursor-canvas');
-const ctx = canvas.getContext('2d');
+const cursorTrail = document.querySelector('.cursor-trail');
 
-let width = window.innerWidth;
-let height = window.innerHeight;
-canvas.width = width;
-canvas.height = height;
-
-window.addEventListener('resize', () => {
-  width = window.innerWidth;
-  height = window.innerHeight;
-  canvas.width = width;
-  canvas.height = height;
-});
-
-let mouseX = width / 2;
-let mouseY = height / 2;
-const history = [];
-const maxHistory = 30; // Length of the ribbon
+let mouseX = 0;
+let mouseY = 0;
+let trailX = 0;
+let trailY = 0;
 
 window.addEventListener('mousemove', (e) => {
   mouseX = e.clientX;
@@ -92,41 +79,20 @@ window.addEventListener('mousemove', (e) => {
   cursorDot.style.top = `${mouseY}px`;
 });
 
-function animateCanvas() {
-  ctx.clearRect(0, 0, width, height);
+// Smooth trail animation
+function animateTrail() {
+  const distX = mouseX - trailX;
+  const distY = mouseY - trailY;
   
-  history.push({ x: mouseX, y: mouseY });
-  if (history.length > maxHistory) {
-    history.shift();
-  }
+  trailX += distX * 0.2;
+  trailY += distY * 0.2;
   
-  if (history.length > 1) {
-    ctx.beginPath();
-    ctx.moveTo(history[0].x, history[0].y);
-    
-    for (let i = 1; i < history.length - 1; i++) {
-      const xc = (history[i].x + history[i + 1].x) / 2;
-      const yc = (history[i].y + history[i + 1].y) / 2;
-      ctx.quadraticCurveTo(history[i].x, history[i].y, xc, yc);
-    }
-    
-    ctx.lineTo(history[history.length - 1].x, history[history.length - 1].y);
-    
-    const rootStyles = getComputedStyle(document.documentElement);
-    const accentColor = rootStyles.getPropertyValue('--accent-color').trim() || '#8b5cf6';
-    
-    ctx.strokeStyle = accentColor;
-    ctx.lineWidth = 3;
-    ctx.lineCap = 'round';
-    ctx.lineJoin = 'round';
-    ctx.shadowBlur = 10;
-    ctx.shadowColor = accentColor;
-    ctx.stroke();
-  }
+  cursorTrail.style.left = `${trailX}px`;
+  cursorTrail.style.top = `${trailY}px`;
   
-  requestAnimationFrame(animateCanvas);
+  requestAnimationFrame(animateTrail);
 }
-animateCanvas();
+animateTrail();
 
 // Hover effect for interactive elements
 const interactiveElements = document.querySelectorAll('a, button');
