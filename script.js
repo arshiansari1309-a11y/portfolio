@@ -60,3 +60,47 @@ const sectionObserver = new IntersectionObserver((entries, observer) => {
 sections.forEach(section => {
   sectionObserver.observe(section);
 });
+
+// Custom Cursor
+const cursorDot = document.querySelector('.cursor-dot');
+const cursorTrail = document.querySelector('.cursor-trail');
+
+let mouseX = 0;
+let mouseY = 0;
+let trailX = 0;
+let trailY = 0;
+
+window.addEventListener('mousemove', (e) => {
+  mouseX = e.clientX;
+  mouseY = e.clientY;
+  
+  // Instant dot movement
+  cursorDot.style.left = `${mouseX}px`;
+  cursorDot.style.top = `${mouseY}px`;
+});
+
+// Smooth trail animation
+function animateTrail() {
+  const distX = mouseX - trailX;
+  const distY = mouseY - trailY;
+  
+  trailX += distX * 0.2;
+  trailY += distY * 0.2;
+  
+  cursorTrail.style.left = `${trailX}px`;
+  cursorTrail.style.top = `${trailY}px`;
+  
+  requestAnimationFrame(animateTrail);
+}
+animateTrail();
+
+// Hover effect for interactive elements
+const interactiveElements = document.querySelectorAll('a, button');
+interactiveElements.forEach(el => {
+  el.addEventListener('mouseenter', () => {
+    document.body.classList.add('cursor-hover');
+  });
+  el.addEventListener('mouseleave', () => {
+    document.body.classList.remove('cursor-hover');
+  });
+});
