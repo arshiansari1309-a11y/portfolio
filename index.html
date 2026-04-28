@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+  
+  <!-- Google Fonts: Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+  
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-content">
+      <a href="#" class="logo">YN.</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle Theme">
+        <i class="ph ph-sun"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero section-hidden" id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="glitch-text">Your Name</h1>
+        <p class="subtitle">Digital Marketer <span class="dot">•</span> Student <span class="dot">•</span> Creator</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn primary-btn">View My Work</a>
+          <a href="#contact" class="btn secondary-btn">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="abstract-shape shape-1"></div>
+        <div class="abstract-shape shape-2"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section section-hidden">
+    <div class="container">
+      <div class="section-header">
+        <h2><i class="ph ph-user"></i> About Me</h2>
+      </div>
+      <div class="about-content glass-card">
+        <p>
+          I am a passionate digital marketer with skills in social media marketing,
+          ads, and content creation. I love building creative campaigns that drive engagement and tell compelling stories. My approach blends data-driven strategy with out-of-the-box creativity to achieve measurable results.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section section-hidden">
+    <div class="container">
+      <div class="section-header">
+        <h2><i class="ph ph-lightning"></i> Core Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="ph ph-share-network"></i>
+          <h3>Social Media Marketing</h3>
+        </div>
+        <div class="skill-card">
+          <i class="ph ph-megaphone"></i>
+          <h3>Facebook & Instagram Ads</h3>
+        </div>
+        <div class="skill-card">
+          <i class="ph ph-pen-nib"></i>
+          <h3>Content Creation</h3>
+        </div>
+        <div class="skill-card">
+          <i class="ph ph-code"></i>
+          <h3>Basic Web Development</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section section-hidden">
+    <div class="container">
+      <div class="section-header">
+        <h2><i class="ph ph-briefcase"></i> Featured Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card glass-card">
+          <div class="project-content">
+            <h3>Jewellery Ad Campaign</h3>
+            <p>Created targeted ads for a luxury jewellery brand, driving a 40% increase in conversions through meticulous audience research and compelling creatives.</p>
+            <a href="#" class="project-link">View Case Study <i class="ph ph-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card">
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <p>Designed and deployed a modern, interactive personal portfolio website showcasing my skills and projects, built with responsive web technologies and deployed using Vercel.</p>
+            <a href="#" class="project-link">View Source <i class="ph ph-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section section-hidden">
+    <div class="container">
+      <div class="section-header">
+        <h2><i class="ph ph-paper-plane-tilt"></i> Get In Touch</h2>
+      </div>
+      <div class="contact-content glass-card">
+        <p class="contact-intro">Let's create something amazing together. Reach out to me via email or connect on social media.</p>
+        <div class="contact-links">
+          <a href="mailto:your@email.com" class="contact-btn email">
+            <i class="ph ph-envelope"></i> your@email.com
+          </a>
+          <a href="https://instagram.com/yourhandle" target="_blank" class="contact-btn instagram">
+            <i class="ph ph-instagram-logo"></i> @yourhandle
+          </a>
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-btn linkedin">
+            <i class="ph ph-linkedin-logo"></i> LinkedIn Profile
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Your Name. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="#"><i class="ph ph-twitter-logo"></i></a>
+        <a href="#"><i class="ph ph-github-logo"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
