@@ -104,3 +104,38 @@ interactiveElements.forEach(el => {
     document.body.classList.remove('cursor-hover');
   });
 });
+
+// Modal Logic
+const modalBtns = document.querySelectorAll('.case-study-btn');
+const closeBtns = document.querySelectorAll('.close-modal');
+const modals = document.querySelectorAll('.modal');
+
+modalBtns.forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    const modalId = btn.getAttribute('data-modal');
+    const modal = document.getElementById(modalId);
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden'; // Prevent scrolling
+    }
+  });
+});
+
+closeBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    const modal = btn.closest('.modal');
+    if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+  });
+});
+
+// Close modal when clicking outside
+window.addEventListener('click', (e) => {
+  if (e.target.classList.contains('modal')) {
+    e.target.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+});
