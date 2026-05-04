@@ -644,6 +644,27 @@ body, a, button {
   padding-left: 10px;
 }
 
+/* Testimonial Slider */
+.slider-dots .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--glass-border);
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.slider-dots .dot:hover {
+  background: rgba(139, 92, 246, 0.5);
+  transform: scale(1.2);
+}
+
+.slider-dots .dot.active {
+  background: var(--accent-color);
+  transform: scale(1.2);
+}
+
 /* Custom Scrollbar for Modal */
 .modal-content::-webkit-scrollbar {
   width: 8px;
