@@ -159,9 +159,41 @@ if (slider && dots.length > 0) {
     });
   });
 
-  // Auto-play slider
+// Auto-play slider
   setInterval(() => {
     let nextSlide = (currentSlide + 1) % dots.length;
     goToSlide(nextSlide);
   }, 5000);
 }
+
+// Mobile Menu Toggle
+const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+const navLinks = document.querySelector('.nav-links');
+const navLinksItems = document.querySelectorAll('.nav-links a');
+
+if (mobileMenuBtn && navLinks) {
+  mobileMenuBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+    const icon = mobileMenuBtn.querySelector('i');
+    if (navLinks.classList.contains('active')) {
+      icon.classList.remove('ph-list');
+      icon.classList.add('ph-x');
+    } else {
+      icon.classList.remove('ph-x');
+      icon.classList.add('ph-list');
+    }
+  });
+
+  // Close mobile menu when a link is clicked
+  navLinksItems.forEach(link => {
+    link.addEventListener('click', () => {
+      if (window.innerWidth <= 768) {
+        navLinks.classList.remove('active');
+        const icon = mobileMenuBtn.querySelector('i');
+        icon.classList.remove('ph-x');
+        icon.classList.add('ph-list');
+      }
+    });
+  });
+}
+

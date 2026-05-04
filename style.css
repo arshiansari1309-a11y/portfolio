@@ -184,6 +184,21 @@ h1, h2, h3 {
   color: var(--accent-color);
 }
 
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  font-size: 1.8rem;
+  cursor: pointer;
+  margin-left: 15px;
+  transition: color 0.3s ease;
+}
+
+.mobile-menu-btn:hover {
+  color: var(--accent-color);
+}
+
 /* Hero Section */
 .hero {
   min-height: 100vh;
@@ -498,8 +513,42 @@ footer p {
 
 /* Responsive */
 @media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+
+  /* Override inline paddings for blog sections */
+  .section[style] {
+    padding-top: 100px !important;
+    padding-bottom: 40px !important;
+  }
+
   .nav-links {
-    display: none; /* simple hidden for mobile, could add hamburger */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: var(--nav-bg);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+    border-bottom: 1px solid var(--glass-border);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: clip-path 0.4s ease-in-out;
+    display: flex;
+  }
+
+  .nav-links.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .hero-text {
@@ -518,6 +567,14 @@ footer p {
   footer .container {
     flex-direction: column;
     text-align: center;
+  }
+
+  /* Disable Custom Cursor on Mobile */
+  body, a, button {
+    cursor: auto !important;
+  }
+  .cursor-dot, .cursor-trail {
+    display: none !important;
   }
 }
 
