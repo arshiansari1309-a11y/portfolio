@@ -1,15 +1,15 @@
 /* Custom Properties / Tokens */
 :root[data-theme="dark"] {
-  --bg-color: #0a0a0a;
-  --bg-color-rgb: 10, 10, 10;
+  --bg-color: #050505;
+  --bg-color-rgb: 5, 5, 5;
   --text-primary: #ffffff;
   --text-secondary: #d4d4d4;
-  --accent-color: #8b5cf6; /* Vibrant Purple */
-  --accent-color-hover: #7c3aed;
+  --accent-color: #ff5733; /* Vibrant Orange */
+  --accent-color-hover: #e04d2e;
   --glass-bg: rgba(255, 255, 255, 0.05);
   --glass-border: rgba(255, 255, 255, 0.15);
   --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  --nav-bg: rgba(10, 10, 10, 0.8);
+  --nav-bg: rgba(5, 5, 5, 0.8);
 }
 
 :root[data-theme="light"] {
@@ -17,8 +17,8 @@
   --bg-color-rgb: 250, 250, 250;
   --text-primary: #171717;
   --text-secondary: #525252;
-  --accent-color: #6d28d9;
-  --accent-color-hover: #5b21b6;
+  --accent-color: #ff5733; /* Vibrant Orange */
+  --accent-color-hover: #e04d2e;
   --glass-bg: rgba(255, 255, 255, 0.7);
   --glass-border: rgba(0, 0, 0, 0.05);
   --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
