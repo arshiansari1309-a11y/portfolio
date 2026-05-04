@@ -38,23 +38,35 @@
   </nav>
 
   <!-- Hero Section -->
-  <header class="hero section-hidden" id="hero">
-    <div class="hero-content">
-      <div class="hero-text">
-        <h1 class="glitch-text" style="font-size: clamp(2.5rem, 6vw, 4rem); line-height: 1.1;">I Turn Ideas Into High-Converting Digital Campaigns</h1>
-        <p class="subtitle" style="margin-top: 15px;">Digital Marketer specializing in SEO, Performance Ads, and Content Strategy — helping brands grow visibility, engagement, and revenue through data-driven marketing.</p>
-        <p style="font-weight: 600; color: var(--accent-color); margin-top: -15px; margin-bottom: 25px; font-size: 1.1rem;">Focused on results, not just reach.</p>
-        <div class="hero-cta">
-          <a href="#projects" class="btn primary-btn">View My Work</a>
-          <a href="#contact" class="btn secondary-btn">Contact Me</a>
-          <a href="resume.pdf" target="_blank" class="btn secondary-btn" style="border-color: var(--accent-color); color: var(--text-primary);"><i class="ph ph-file-pdf" style="margin-right: 5px;"></i> View Resume</a>
-        </div>
-      </div>
-      <div class="hero-visual">
-        <div class="abstract-shape shape-1"></div>
-        <div class="abstract-shape shape-2"></div>
+  <!-- Hero Section -->
+  <header class="hero section-hidden" id="hero" style="min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative; overflow: hidden; padding-top: 80px;">
+    
+    <!-- Subheading (Top) -->
+    <div class="hero-subheading" style="position: absolute; top: 15vh; width: 100%; text-align: center; z-index: 5;">
+      <p style="font-size: 1.2rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: var(--text-secondary);">Digital Marketer & Entrepreneur</p>
+    </div>
+
+    <!-- Fluid Orb -->
+    <div class="fluid-orb"></div>
+
+    <!-- Sliding Marquee -->
+    <div class="marquee-container">
+      <div class="marquee-track">
+        <span class="outline-text">ARSHI ANSARI</span>
+        <span class="outline-text">ARSHI ANSARI</span>
+        <span class="outline-text">ARSHI ANSARI</span>
+        <span class="outline-text">ARSHI ANSARI</span>
+        <span class="outline-text">ARSHI ANSARI</span>
       </div>
     </div>
+
+    <!-- CTA Buttons (Bottom) -->
+    <div class="hero-cta" style="position: absolute; bottom: 10vh; z-index: 10; display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+      <a href="#projects" class="btn primary-btn">View My Work</a>
+      <a href="#contact" class="btn secondary-btn">Contact Me</a>
+      <a href="resume.pdf" target="_blank" class="btn secondary-btn" style="border-color: var(--accent-color); color: var(--text-primary);"><i class="ph ph-file-pdf" style="margin-right: 5px;"></i> View Resume</a>
+    </div>
+
   </header>
 
   <!-- About Section -->
