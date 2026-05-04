@@ -41,41 +41,20 @@
   <!-- Hero Section -->
   <header class="hero section-hidden" id="hero" style="min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative; overflow: hidden; padding-top: 80px;">
     
-    <!-- Subheading (Top) -->
-    <div class="hero-subheading" style="position: absolute; top: 15vh; width: 100%; text-align: center; z-index: 5;">
-      <p style="font-size: 1.2rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: var(--text-secondary);">Digital Marketer & Entrepreneur</p>
-    </div>
+    <!-- Glowing Ring (Slight movement) -->
+    <div class="hero-ring"></div>
 
-    <!-- Pulsing Glow Background -->
-    <div class="hero-glow"></div>
-
-    <!-- Sliding Marquee 1 (Left) -->
-    <div class="marquee-container" style="top: 40%;">
-      <div class="marquee-track marquee-left">
-        <span class="outline-text">ARSHI ANSARI</span>
-        <span class="outline-text">ARSHI ANSARI</span>
-        <span class="outline-text">ARSHI ANSARI</span>
-        <span class="outline-text">ARSHI ANSARI</span>
-        <span class="outline-text">ARSHI ANSARI</span>
+    <!-- Main Content -->
+    <div class="hero-content" style="position: relative; z-index: 10; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 15px;">
+      
+      <h1 class="hero-title" style="font-size: clamp(3rem, 8vw, 6.5rem); font-weight: 400; text-transform: uppercase; letter-spacing: 4px; color: #fff; margin: 0; text-shadow: 0 10px 30px rgba(0,0,0,0.5); font-family: 'Outfit', sans-serif;">Arshi Ansari</h1>
+      
+      <p class="hero-subtitle" style="font-size: clamp(0.9rem, 1.5vw, 1.2rem); font-weight: 600; letter-spacing: 6px; text-transform: uppercase; color: #e0e0e0; margin: 0 0 40px 0;">Digital Marketer & Entrepreneur</p>
+      
+      <!-- CTA Buttons -->
+      <div class="hero-cta" style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+        <a href="#contact" class="btn primary-btn" style="background: #ff5733; color: white; border: none; box-shadow: 0 0 20px rgba(255, 87, 51, 0.4); border-radius: 30px; padding: 12px 35px; text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem;">Contact</a>
       </div>
-    </div>
-
-    <!-- Sliding Marquee 2 (Right) -->
-    <div class="marquee-container" style="top: 60%;">
-      <div class="marquee-track marquee-right">
-        <span class="outline-text solid-text">ARSHI ANSARI</span>
-        <span class="outline-text solid-text">ARSHI ANSARI</span>
-        <span class="outline-text solid-text">ARSHI ANSARI</span>
-        <span class="outline-text solid-text">ARSHI ANSARI</span>
-        <span class="outline-text solid-text">ARSHI ANSARI</span>
-      </div>
-    </div>
-
-    <!-- CTA Buttons (Bottom) -->
-    <div class="hero-cta" style="position: absolute; bottom: 10vh; z-index: 10; display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
-      <a href="#projects" class="btn primary-btn">View My Work</a>
-      <a href="#contact" class="btn secondary-btn">Contact Me</a>
-      <a href="resume.pdf" target="_blank" class="btn secondary-btn" style="border-color: var(--accent-color); color: var(--text-primary);"><i class="ph ph-file-pdf" style="margin-right: 5px;"></i> View Resume</a>
     </div>
 
   </header>
