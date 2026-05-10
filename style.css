@@ -523,6 +523,22 @@ footer p {
     padding-bottom: 40px !important;
   }
 
+  .section-header h2 {
+    font-size: 2rem;
+  }
+
+  .hero-title {
+    font-size: clamp(2.5rem, 8vw, 4rem) !important;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(1rem, 4vw, 1.2rem) !important;
+  }
+
+  .glass-card {
+    padding: 20px !important;
+  }
+
   .nav-links {
     position: absolute;
     top: 100%;
