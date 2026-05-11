@@ -783,3 +783,50 @@ body, a, button {
     border-width: 25px;
   }
 }
+
+/* Certificate Thumbnail Preview */
+.cert-preview-container {
+  position: relative;
+  display: inline-block;
+}
+
+.cert-thumbnail {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  width: 300px;
+  height: 220px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  pointer-events: none;
+  z-index: 1000;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+/* Add a little arrow pointing down */
+.cert-thumbnail::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 8px 8px 0;
+  border-style: solid;
+  border-color: var(--glass-border) transparent transparent transparent;
+  display: block;
+  width: 0;
+}
+
+.cert-preview-container:hover .cert-thumbnail {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
