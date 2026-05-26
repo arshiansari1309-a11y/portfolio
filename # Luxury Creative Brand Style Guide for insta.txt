@@ -1,0 +1,154 @@
+# Luxury Creative Brand Style Guide
+
+## Brand Identity
+
+A premium creative personal brand for:
+- Graphic Design
+- Digital Marketing
+- Branding
+- Social Media Strategy
+
+### Brand Personality
+- Luxury
+- Elegant
+- Strategic
+- Modern
+- Minimal
+- Professional
+
+---
+
+# Primary Color Palette
+
+| Usage | Color Name | HEX Code |
+|-------|-------------|-----------|
+| Main Background | Rich Black | #0D0D0D |
+| Secondary Background | Charcoal Black | #1A1A1A |
+| Primary Accent | Luxury Gold | #C8A96B |
+| Soft Gold Highlight | Champagne Gold | #D4B483 |
+| Main Neutral | Warm Cream | #F5EFE6 |
+| Secondary Neutral | Soft Beige | #D9C7A3 |
+| Primary Text | Ivory White | #FAF8F4 |
+| Secondary Text | Muted Beige | #B8A98A |
+| Borders & Lines | Soft Gold Grey | #8C7A5B |
+
+---
+
+# Typography
+
+## Headlines
+### Font:
+Poppins Bold
+
+### Usage:
+- Titles
+- Hero Sections
+- Reel Covers
+- Carousel Headings
+- Important Statements
+
+### Style:
+- Bold
+- Clean
+- Spacious
+- Premium look
+
+---
+
+## Body Text
+### Font:
+DM Sans
+
+### Usage:
+- Paragraphs
+- Captions
+- Descriptions
+- Website Text
+- Social Media Content
+
+### Style:
+- Minimal
+- Readable
+- Modern
+
+---
+
+# Instagram Branding Style
+
+## Feed Aesthetic
+- Matte Black Backgrounds
+- Cream Typography
+- Gold Accent Elements
+- Minimal Layouts
+- Elegant Spacing
+- Editorial Feel
+
+---
+
+# Content Structure
+
+## Portfolio Content
+- Branding Projects
+- Logo Designs
+- Website Mockups
+- Social Media Creatives
+- Typography Posters
+
+## Marketing Content
+- Growth Tips
+- Social Media Strategy
+- Carousel Posts
+- Analytics Insights
+- Content Ideas
+
+## Personal Branding
+- Workspace Shots
+- Behind The Scenes
+- Process Videos
+- Freelancer Journey
+
+---
+
+# Reel Cover Style
+
+## Formula
+- Black Background
+- Large Poppins Heading
+- Minimal Layout
+- Small Gold Accents
+- Consistent Branding
+
+### Example Titles
+- HOW TO BUILD A LUXURY BRAND
+- 3 DESIGN MISTAKES CLIENTS HATE
+- SOCIAL MEDIA TIPS FOR BRANDS
+
+---
+
+# UI & Website Styling
+
+## Button Style
+Background: #C8A96B  
+Text: #0D0D0D
+
+## Section Backgrounds
+Primary: #0D0D0D  
+Secondary: #1A1A1A
+
+## Card Background
+#151515
+
+## Hover Accent
+#D4B483
+
+---
+
+# Gradient Option
+
+```css
+background: linear-gradient(
+135deg,
+#0D0D0D,
+#1A1A1A,
+#C8A96B20
+);

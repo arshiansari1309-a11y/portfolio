@@ -1,0 +1,647 @@
+# EVERGLOW JEWELS  
+## Brand Theory & Identity Guidelines
+
+---
+
+# 1. Brand Foundation
+
+## Brand Name
+**EverGlow Jewels**
+
+### Meaning Behind the Name
+The name “EverGlow” symbolizes:
+- Timeless beauty
+- Lasting elegance
+- Inner radiance
+- Emotional memories attached to jewellery
+
+The word “Glow” reflects confidence, femininity, and luxury, while “Ever” communicates durability and timelessness.
+
+The brand represents jewellery that is not only worn but emotionally connected to personal stories and milestones.
+
+---
+
+# 2. Brand Vision
+
+> To create elegant, timeless jewellery that allows every woman to express her individuality with confidence and grace.
+
+---
+
+# 3. Brand Mission
+
+EverGlow Jewels aims to bridge the gap between:
+- Luxury aesthetics
+- Affordability
+- Handcrafted elegance
+- Emotional storytelling
+
+The brand focuses on creating anti-tarnish jewellery pieces that feel premium, modern, and deeply personal.
+
+---
+
+# 4. Brand Philosophy
+
+## “Jewellery Should Tell a Story”
+
+EverGlow Jewels believes jewellery is:
+- More than an accessory
+- A reflection of emotion
+- A symbol of memories
+- A form of self-expression
+
+Every piece should make the customer feel:
+- Elegant
+- Confident
+- Feminine
+- Valuable
+
+---
+
+# 5. Target Audience
+
+## Primary Audience
+Women aged:
+- 18–35
+
+### Lifestyle Traits
+- Fashion conscious
+- Modern yet elegant
+- Active on Instagram & Pinterest
+- Loves minimal luxury
+- Values aesthetics
+- Prefers premium-looking affordable products
+
+---
+
+# 6. Brand Personality
+
+EverGlow Jewels should always feel:
+
+| Trait | Description |
+|---|---|
+| Elegant | Sophisticated and graceful |
+| Feminine | Soft yet confident |
+| Luxurious | Premium but approachable |
+| Timeless | Never trend-dependent |
+| Emotional | Story-driven branding |
+| Artistic | Handcrafted and detailed |
+
+---
+
+# 7. Brand Positioning
+
+## Positioning Statement
+
+> “Affordable luxury jewellery crafted to celebrate timeless beauty and personal stories.”
+
+The brand should position itself between:
+- Fast fashion jewellery
+- Premium designer aesthetics
+
+The goal is:
+### “Accessible Luxury”
+
+---
+
+# 8. Emotional Brand Strategy
+
+EverGlow should sell:
+- Feelings
+- Identity
+- Confidence
+- Self-expression
+
+Not just products.
+
+Customers should emotionally connect with:
+- The craftsmanship
+- The elegance
+- The experience
+- The storytelling
+
+---
+
+# 9. Visual Brand Theory
+
+Luxury brands rely heavily on:
+- Simplicity
+- Space
+- Typography
+- Mood
+- Emotional imagery
+
+EverGlow should maintain:
+- Soft luxury aesthetics
+- Minimalism
+- Warm elegance
+- Editorial fashion feel
+
+---
+
+# 10. Color Theory
+
+---
+
+## Primary Brand Color
+### Champagne Gold
+
+```css
+#C6A14A
+```
+
+### Psychological Meaning
+- Luxury
+- Wealth
+- Warmth
+- Sophistication
+- Celebration
+
+Unlike bright yellow gold, champagne gold feels:
+- Modern
+- Refined
+- Premium
+
+---
+
+## Background Color
+### Ivory White
+
+```css
+#FAF7F2
+```
+
+### Psychological Meaning
+- Calmness
+- Purity
+- Elegance
+- Soft luxury
+
+Luxury websites avoid pure white because it feels harsh.
+
+---
+
+## Text Color
+### Deep Charcoal
+
+```css
+#1F1B18
+```
+
+### Psychological Meaning
+- Sophisticated
+- Timeless
+- Editorial
+- Premium
+
+---
+
+## Secondary Neutral
+### Warm Beige
+
+```css
+#E8DED1
+```
+
+### Usage
+- Card backgrounds
+- Section highlights
+- Hover states
+- Soft dividers
+
+---
+
+## Accent Luxury Color
+### Emerald Green
+
+```css
+#0F3B36
+```
+
+### Psychological Meaning
+- Royalty
+- Gemstones
+- Richness
+- Exclusivity
+
+Should be used sparingly.
+
+---
+
+# 11. Typography Theory
+
+Typography defines luxury perception.
+
+EverGlow requires:
+- High-fashion serif headings
+- Clean modern sans-serif body text
+
+---
+
+## Heading Font
+# Cormorant Garamond
+
+### Why?
+- Elegant curves
+- Editorial luxury appearance
+- Fashion-magazine aesthetics
+- Feminine sophistication
+
+### Usage
+- Hero headings
+- Section titles
+- Luxury statements
+
+---
+
+## Body Font
+# Inter
+
+### Why?
+- Clean readability
+- Modern interface balance
+- Minimal and professional
+
+### Usage
+- Paragraphs
+- Buttons
+- Navigation
+- Product descriptions
+
+---
+
+# 12. Typography Hierarchy
+
+## Hero Heading
+
+```css
+font-size: 72px;
+font-weight: 600;
+line-height: 1.1;
+letter-spacing: -1px;
+```
+
+---
+
+## Section Headings
+
+```css
+font-size: 48px;
+font-weight: 600;
+```
+
+---
+
+## Body Text
+
+```css
+font-size: 16px;
+line-height: 1.8;
+```
+
+---
+
+# 13. Logo Theory
+
+The EverGlow logo should communicate:
+- Luxury
+- Timelessness
+- Sophistication
+- Minimal elegance
+
+---
+
+## Recommended Style
+
+### Typography Logo
+Minimal serif logo with wide spacing.
+
+Structure:
+
+```text
+EVERGLOW
+   JEWELS
+```
+
+---
+
+## Logo Characteristics
+
+- Serif typography
+- Thin elegant letterforms
+- Wide spacing
+- Minimal icon usage
+- Gold or charcoal color
+
+---
+
+# 14. UI/UX Brand Theory
+
+Luxury UI is based on:
+- Space
+- Simplicity
+- Emotion
+- Focus
+
+---
+
+## Core Principles
+
+### 1. Less Clutter
+Luxury interfaces never feel crowded.
+
+---
+
+### 2. Large White Space
+Spacing creates premium perception.
+
+Recommended:
+
+```css
+padding-top: 120px;
+padding-bottom: 120px;
+```
+
+---
+
+### 3. Soft Interactions
+Animations should be:
+- Slow
+- Smooth
+- Elegant
+
+Avoid flashy transitions.
+
+---
+
+### 4. Cinematic Photography
+Use:
+- Warm lighting
+- Silk textures
+- Marble backgrounds
+- Gold reflections
+- Natural skin tones
+
+---
+
+# 15. Photography Direction
+
+Photography should communicate:
+- Warmth
+- Luxury
+- Femininity
+- Editorial fashion aesthetics
+
+---
+
+## Ideal Image Elements
+
+- Velvet textures
+- Gold reflections
+- Soft shadows
+- Neutral backgrounds
+- Close-up craftsmanship shots
+
+---
+
+## Avoid
+
+- Overexposed white images
+- Harsh lighting
+- Oversaturated colors
+- Cheap stock photos
+
+---
+
+# 16. Product Card Theory
+
+Current product cards feel generic ecommerce.
+
+Luxury product cards should:
+- Use larger images
+- Reduce border heaviness
+- Add subtle shadows
+- Maintain clean typography
+- Include hover zoom effects
+
+---
+
+## Recommended Style
+
+```css
+border-radius: 20px;
+overflow: hidden;
+transition: 0.4s ease;
+```
+
+---
+
+# 17. Button Design Theory
+
+Luxury buttons should feel:
+- Minimal
+- Confident
+- Premium
+
+---
+
+## Recommended Button Style
+
+```css
+background: #C6A14A;
+border-radius: 999px;
+padding: 14px 32px;
+font-weight: 500;
+```
+
+---
+
+## Hover Effect
+
+```css
+background: #1F1B18;
+color: white;
+transition: 0.3s ease;
+```
+
+---
+
+# 18. Brand Voice
+
+EverGlow’s tone should always sound:
+- Elegant
+- Emotional
+- Refined
+- Warm
+- Feminine
+
+---
+
+## Writing Style Examples
+
+### ❌ Generic
+“Affordable jewellery for everyone.”
+
+### ✅ Luxury Brand Voice
+“Timeless pieces crafted to celebrate your elegance.”
+
+---
+
+# 19. Website Mood
+
+The website should feel like:
+- A luxury fashion editorial
+- A premium jewellery boutique
+- An emotional visual experience
+
+Not like:
+- A mass-market ecommerce store
+
+---
+
+# 20. Homepage Experience Strategy
+
+---
+
+## Hero Section
+Purpose:
+- Emotional connection
+- Brand storytelling
+- Luxury visual impact
+
+---
+
+## Bestseller Section
+Purpose:
+- Social proof
+- Product attraction
+
+---
+
+## Brand Story Section
+Purpose:
+- Build trust
+- Humanize craftsmanship
+
+---
+
+## Why Choose Us
+Purpose:
+- Reinforce value proposition
+
+---
+
+## Instagram Gallery
+Purpose:
+- Social luxury branding
+- Community aesthetics
+
+---
+
+# 21. Animation Theory
+
+Luxury brands use:
+- Fade-in animations
+- Slow movement
+- Smooth hover transitions
+- Subtle parallax effects
+
+Avoid:
+- Fast flashy animations
+- Heavy bounce effects
+
+---
+
+# 22. Packaging Theory
+
+Packaging should reflect:
+- Minimal luxury
+- Gift-like experience
+
+Recommended:
+- Matte ivory boxes
+- Gold foil logo
+- Satin ribbons
+- Beige tissue paper
+
+---
+
+# 23. Social Media Identity
+
+Instagram should maintain:
+- Neutral warm tones
+- Elegant compositions
+- Soft lighting
+- Minimal graphics
+
+---
+
+## Content Pillars
+
+1. Product Close-Ups
+2. Styling Inspiration
+3. Craftsmanship Videos
+4. Customer Stories
+5. Luxury Lifestyle Content
+
+---
+
+# 24. Luxury Psychology Principles
+
+Luxury perception is created through:
+- Space
+- Confidence
+- Simplicity
+- Emotional storytelling
+- Premium imagery
+- Consistency
+
+The brand should never feel:
+- Overcrowded
+- Loud
+- Cheap
+- Over-designed
+
+---
+
+# 25. Final Brand Direction
+
+## EverGlow Jewels represents:
+
+> “Modern timeless jewellery crafted with emotional elegance for women who value beauty, confidence, and individuality.”
+
+---
+
+# 26. Brand Keywords
+
+Always maintain these keywords:
+
+- Timeless
+- Elegant
+- Refined
+- Handcrafted
+- Feminine
+- Graceful
+- Luminous
+- Premium
+- Minimal luxury
+- Sophisticated
+
+---
+
+# 27. Final Design Identity Summary
+
+| Element | Direction |
+|---|---|
+| Brand Style | Modern Royal Luxury |
+| Typography | Editorial Serif + Clean Sans |
+| Color Mood | Warm Luxury |
+| Website Feel | Minimal Premium Boutique |
+| Photography | Cinematic & Soft |
+| User Emotion | Elegant & Valued |
+| Brand Tone | Sophisticated & Emotional |
+
+---
+
+# 28. Final Brand Statement
+
+> “EverGlow Jewels creates timeless jewellery designed to illuminate individuality, celebrate elegance, and transform everyday moments into lasting memories.”

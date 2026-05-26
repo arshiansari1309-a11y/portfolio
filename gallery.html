@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Design Gallery by Arshi Ansari. A Behance and Pinterest inspired showcase of branding, social media, logo design, packaging, and posters.">
+  <title>Design Gallery | Arshi Ansari</title>
+  
+  <!-- Google Fonts: Poppins, DM Sans, Cormorant Garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-trail"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar scrolled">
+    <div class="nav-content">
+      <a href="index.html" class="logo">Arshi Ansari</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions" style="display: flex; align-items: center;">
+        <button id="theme-toggle" aria-label="Toggle Theme">
+          <i class="ph ph-sun"></i>
+        </button>
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Menu">
+          <i class="ph ph-list"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Gallery Header -->
+  <header class="section" style="padding-top: 160px; padding-bottom: 40px; text-align: center; position: relative;">
+    <div class="floating-elements">
+      <div class="floating-shape f-shape-1"></div>
+      <div class="floating-shape f-shape-3"></div>
+    </div>
+    <div class="container" style="position: relative; z-index: 10;">
+      <span class="serif-text" style="color: var(--accent-color); font-size: 1.5rem; letter-spacing: 2px;">Creative Showcase</span>
+      <h1 style="font-size: clamp(2.5rem, 6vw, 4.5rem); text-transform: uppercase; margin-top: 10px; font-weight: 800;">Design Gallery</h1>
+      <p style="color: var(--text-secondary); max-width: 600px; margin: 15px auto 0 auto; font-size: 1.1rem;">
+        A visual showcase of premium creative works, branding assets, social campaigns, and packaging design projects.
+      </p>
+    </div>
+  </header>
+
+  <!-- Filter Controls -->
+  <section style="padding: 0 0 40px 0;">
+    <div class="container">
+      <div class="filter-container">
+        <button class="filter-btn active" data-filter="all">All Works</button>
+        <button class="filter-btn" data-filter="branding">Branding</button>
+        <button class="filter-btn" data-filter="social-media">Social Media</button>
+        <button class="filter-btn" data-filter="logo-design">Logo Design</button>
+        <button class="filter-btn" data-filter="packaging">Packaging</button>
+        <button class="filter-btn" data-filter="posters">Posters</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pinterest Masonry Grid Section -->
+  <section class="section" style="padding-top: 0; min-height: 60vh;">
+    <div class="container">
+      <div class="masonry-container" id="gallery-grid">
+        
+        <!-- Item 1: EverGlow Branding Mockup -->
+        <div class="masonry-item" data-category="branding logo-design" data-project="everglow-branding">
+          <img src="eg_branding_mockup.png" alt="EverGlow Jewels Brand Guidelines">
+          <div class="masonry-content">
+            <h4>EverGlow Jewels</h4>
+            <p>Full brand identity and visual strategy guidelines</p>
+            <div class="tags">
+              <span class="tag">Branding</span>
+              <span class="tag">Logo Design</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: Phone Mockup / Social Media -->
+        <div class="masonry-item" data-category="social-media" data-project="instagram-campaign">
+          <img src="instagram_mockup.png" alt="Instagram Social Campaign">
+          <div class="masonry-content">
+            <h4>Social Media Campaign</h4>
+            <p>Luxury Instagram theme design & ad creatives</p>
+            <div class="tags">
+              <span class="tag">Social Media</span>
+              <span class="tag">Canva</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3: Luxury Packaging -->
+        <div class="masonry-item" data-category="packaging branding" data-project="luxury-packaging">
+          <img src="packaging_mockup.png" alt="EverGlow Jewels Packaging Design">
+          <div class="masonry-content">
+            <h4>Premium Box & Ribbon</h4>
+            <p>Ivory paper box packaging with gold foil debossing</p>
+            <div class="tags">
+              <span class="tag">Packaging</span>
+              <span class="tag">Branding</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4: Typography Poster -->
+        <div class="masonry-item" data-category="posters" data-project="typography-poster">
+          <img src="poster_mockup.png" alt="Typography Studio Poster">
+          <div class="masonry-content">
+            <h4>Modern Typography Poster</h4>
+            <p>Minimalist gold & black framing art print</p>
+            <div class="tags">
+              <span class="tag">Posters</span>
+              <span class="tag">Illustrator</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 5: SEO Campaign Post -->
+        <div class="masonry-item" data-category="social-media" data-project="seo-infographic">
+          <img src="494378cb-29d3-4a42-ad8d-0f2aba293e79.png" alt="SEO Checklist Guide Visual">
+          <div class="masonry-content">
+            <h4>Beginner's SEO Checklist</h4>
+            <p>Clean infographic style carousel for social engagement</p>
+            <div class="tags">
+              <span class="tag">Social Media</span>
+              <span class="tag">Figma</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 6: Facebook Ad Creative -->
+        <div class="masonry-item" data-category="logo-design branding" data-project="creative-branding">
+          <img src="9d9f4e69-139a-4f79-ad3d-b1f0358bd7d0.png" alt="Creative Business Ad Visual">
+          <div class="masonry-content">
+            <h4>Business Growth Carousel</h4>
+            <p>Social media ad designs tailored for local brands</p>
+            <div class="tags">
+              <span class="tag">Branding</span>
+              <span class="tag">Social Media</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 7: Digital Marketing Poster -->
+        <div class="masonry-item" data-category="posters branding" data-project="marketing-strategies">
+          <img src="e7fe43ed-8e2e-49b2-9795-3bf3cf800f8a.png" alt="Digital Marketing Poster">
+          <div class="masonry-content">
+            <h4>Marketing Strategy Visual</h4>
+            <p>Clean information hierarchy marketing poster</p>
+            <div class="tags">
+              <span class="tag">Posters</span>
+              <span class="tag">Branding</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Fullscreen Project Modal (Rendered dynamically via script.js) -->
+  <div class="fullscreen-modal" id="fullscreen-project-modal">
+    <button class="fs-modal-close" aria-label="Close Case Study"><i class="ph ph-x"></i></button>
+    <div class="fs-modal-container">
+      <div class="fs-project-header">
+        <span class="fs-project-tag" id="modal-project-tag">Branding</span>
+        <h2 class="fs-project-title" id="modal-project-title">Project Title</h2>
+      </div>
+      
+      <div class="fs-project-gallery" id="modal-project-gallery">
+        <!-- Main showcase images will be inserted here -->
+      </div>
+      
+      <div class="fs-project-meta-grid">
+        <div class="fs-meta-item">
+          <h5>Client</h5>
+          <p id="modal-project-client">EverGlow Jewels</p>
+        </div>
+        <div class="fs-meta-item">
+          <h5>Tools Used</h5>
+          <p id="modal-project-tools">Photoshop, Illustrator, Figma</p>
+        </div>
+        <div class="fs-meta-item">
+          <h5>Role</h5>
+          <p id="modal-project-role">Lead Brand Designer</p>
+        </div>
+        <div class="fs-meta-item">
+          <h5>Results</h5>
+          <p id="modal-project-results">+40% Conversion</p>
+        </div>
+      </div>
+      
+      <div class="fs-project-body">
+        <div class="fs-body-left">
+          <h3>Project Details</h3>
+          <p id="modal-project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+        <div class="fs-body-right">
+          <div class="fs-metrics-card">
+            <div class="fs-metrics-number" id="modal-project-metric-num">+40%</div>
+            <div class="fs-metrics-label" id="modal-project-metric-label">Conversion Rate</div>
+          </div>
+          <h3>Deliverables</h3>
+          <ul id="modal-project-deliverables">
+            <li><i class="ph ph-check"></i> High-resolution Mockups</li>
+            <li><i class="ph ph-check"></i> Style Guidelines</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Arshi Ansari. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/arshiansari1309-a11y" target="_blank"><i class="ph ph-github-logo"></i></a>
+        <a href="https://www.instagram.com/aarrsshhiiii/" target="_blank"><i class="ph ph-instagram-logo"></i></a>
+        <a href="https://www.linkedin.com/in/arshi-ansari-23542725b" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
