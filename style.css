@@ -401,11 +401,88 @@ h1, h2, h3, h4, h5, h6 {
 .skill-card:hover {
   transform: translateY(-10px);
   border-color: var(--accent-color);
-  background: rgba(139, 92, 246, 0.05);
+  background: rgba(200, 169, 107, 0.05);
 }
 
 .skill-card:hover i {
   transform: scale(1.2);
+}
+
+/* Core Skills Grid & Cards */
+.core-skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.core-skill-card {
+  padding: 35px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.skill-icon-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  background: rgba(200, 169, 107, 0.1);
+  border: 1px solid var(--accent-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--accent-color);
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.core-skill-card:hover .skill-icon-box {
+  background: var(--accent-color);
+  color: #0d0d0d;
+  box-shadow: 0 0 15px rgba(200, 169, 107, 0.4);
+}
+
+.core-skill-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.5px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.skill-tag {
+  background: rgba(250, 248, 244, 0.05);
+  border: 1px solid var(--glass-border);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.core-skill-card:hover .skill-tag {
+  border-color: rgba(200, 169, 107, 0.3);
+  color: var(--text-primary);
+}
+
+.skill-tag:hover {
+  background: rgba(200, 169, 107, 0.15);
+  border-color: var(--accent-color);
+  color: var(--accent-color) !important;
+  transform: scale(1.05);
 }
 
 /* Projects Section */
