@@ -341,7 +341,7 @@ if (sliderContainer) {
 
 // Design Gallery Masonry Grid Category Filtering
 const filterButtons = document.querySelectorAll('.filter-btn');
-const galleryItems = document.querySelectorAll('.masonry-item');
+const galleryItems = document.querySelectorAll('.masonry-item, .blog-card');
 
 if (filterButtons.length > 0 && galleryItems.length > 0) {
   filterButtons.forEach(button => {

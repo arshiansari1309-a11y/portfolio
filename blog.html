@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Insights and articles by Arshi Ansari. Explore guides on digital marketing, SEO optimization, and Meta ads strategies.">
+  <title>Blog | Arshi Ansari</title>
+  
+  <!-- Google Fonts: Poppins, DM Sans, Cormorant Garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-trail"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar scrolled">
+    <div class="nav-content">
+      <a href="index.html" class="logo">Arshi Ansari</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions" style="display: flex; align-items: center;">
+        <button id="theme-toggle" aria-label="Toggle Theme">
+          <i class="ph ph-sun"></i>
+        </button>
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Menu">
+          <i class="ph ph-list"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Blog Header -->
+  <header class="gallery-hero section" style="padding-top: 160px; padding-bottom: 40px; text-align: center; position: relative; overflow: hidden;">
+    <div class="floating-elements">
+      <div class="floating-shape f-shape-1"></div>
+      <div class="floating-shape f-shape-3"></div>
+    </div>
+    <div class="container" style="position: relative; z-index: 10;">
+      <span class="serif-text" style="color: var(--accent-color); font-size: 1.5rem; letter-spacing: 2px;">Insights & Articles</span>
+      <h1 style="font-size: clamp(2.5rem, 6vw, 4.5rem); text-transform: uppercase; margin-top: 10px; font-weight: 800;">My Blog</h1>
+      <p style="color: var(--text-secondary); max-width: 600px; margin: 15px auto 0 auto; font-size: 1.1rem;">
+        Sharing my knowledge, learnings, and insights on digital marketing, SEO, paid ads, and brand growth strategies.
+      </p>
+    </div>
+  </header>
+
+  <!-- Filter Controls -->
+  <section style="padding: 0 0 40px 0;">
+    <div class="container">
+      <div class="filter-container">
+        <button class="filter-btn active" data-filter="all">All Posts</button>
+        <button class="filter-btn" data-filter="seo">SEO</button>
+        <button class="filter-btn" data-filter="ads">Paid Ads</button>
+        <button class="filter-btn" data-filter="strategy">Strategy</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Grid Section -->
+  <section class="section" style="padding-top: 0; min-height: 60vh;">
+    <div class="container">
+      <div class="blogs-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px;">
+        
+        <!-- Blog 1 -->
+        <div class="blog-card glass-card" data-category="seo" style="display: flex; flex-direction: column; overflow: hidden; padding: 0; transition: opacity 0.35s ease, transform 0.35s ease;">
+          <div class="blog-thumbnail" style="height: 220px; background: url('494378cb-29d3-4a42-ad8d-0f2aba293e79.png') center top / cover no-repeat;"></div>
+          <div class="blog-content" style="padding: 30px; display: flex; flex-direction: column; flex-grow: 1;">
+            <span class="category-tag" style="background: rgba(255, 87, 51, 0.2); color: #ffb3a1; padding: 5px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; align-self: flex-start; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">SEO</span>
+            <h3 style="margin-bottom: 15px;">Beginner’s Guide to SEO: How to Rank Your Website</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 25px; flex-grow: 1;">Learn how to improve your website ranking with simple SEO techniques.</p>
+            <a href="blog1.html" class="btn secondary-btn" style="align-self: flex-start; padding: 8px 20px; font-size: 0.9rem;">👉 Read More <i class="ph ph-arrow-right" style="margin-left: 5px;"></i></a>
+          </div>
+        </div>
+
+        <!-- Blog 2 -->
+        <div class="blog-card glass-card" data-category="ads" style="display: flex; flex-direction: column; overflow: hidden; padding: 0; transition: opacity 0.35s ease, transform 0.35s ease;">
+          <div class="blog-thumbnail" style="height: 220px; background: url('9d9f4e69-139a-4f79-ad3d-b1f0358bd7d0.png') center top / cover no-repeat;"></div>
+          <div class="blog-content" style="padding: 30px; display: flex; flex-direction: column; flex-grow: 1;">
+            <span class="category-tag" style="background: rgba(255, 123, 0, 0.2); color: #ffd699; padding: 5px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; align-self: flex-start; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Ads</span>
+            <h3 style="margin-bottom: 15px;">How Facebook & Instagram Ads Help Small Businesses Grow</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 25px; flex-grow: 1;">Discover how targeted ads can boost visibility, engagement, and sales with the right strategy.</p>
+            <a href="blog2.html" class="btn secondary-btn" style="align-self: flex-start; padding: 8px 20px; font-size: 0.9rem;">👉 Read More <i class="ph ph-arrow-right" style="margin-left: 5px;"></i></a>
+          </div>
+        </div>
+
+        <!-- Blog 3 -->
+        <div class="blog-card glass-card" data-category="strategy" style="display: flex; flex-direction: column; overflow: hidden; padding: 0; transition: opacity 0.35s ease, transform 0.35s ease;">
+          <div class="blog-thumbnail" style="height: 220px; background: url('e7fe43ed-8e2e-49b2-9795-3bf3cf800f8a.png') center top / cover no-repeat;"></div>
+          <div class="blog-content" style="padding: 30px; display: flex; flex-direction: column; flex-grow: 1;">
+            <span class="category-tag" style="background: rgba(230, 57, 0, 0.2); color: #ff9e80; padding: 5px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; align-self: flex-start; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Strategy</span>
+            <h3 style="margin-bottom: 15px;">Top 5 Digital Marketing Strategies for 2026</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 25px; flex-grow: 1;">Explore the latest trends and strategies every marketer should use to stay ahead in the digital world.</p>
+            <a href="blog3.html" class="btn secondary-btn" style="align-self: flex-start; padding: 8px 20px; font-size: 0.9rem;">👉 Read More <i class="ph ph-arrow-right" style="margin-left: 5px;"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Arshi Ansari. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/arshiansari1309-a11y" target="_blank"><i class="ph ph-github-logo"></i></a>
+        <a href="https://www.instagram.com/aarrsshhiiii/" target="_blank"><i class="ph ph-instagram-logo"></i></a>
+        <a href="https://www.linkedin.com/in/arshi-ansari-23542725b" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
