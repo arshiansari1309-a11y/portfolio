@@ -1,7 +1,7 @@
 // Project Database for Dynamic Fullscreen Modal
 const projectData = {
   "everglow-branding": {
-    title: "EverGlow Jewels Branding",
+    title: "EverGlow Jewels — Luxury Brand Identity & Digital Marketing Campaign",
     tag: "Branding",
     client: "EverGlow Jewels",
     tools: "Photoshop, Illustrator, Figma, Canva",
@@ -9,12 +9,12 @@ const projectData = {
     results: "+40% Conversion Spike",
     metricNum: "+40%",
     metricLabel: "Conversion Increase",
-    desc: "Designed the full luxury brand guidelines and identity for EverGlow Jewels. Built a comprehensive style guide based on modern editorial serif headings, champagne gold primary branding (#C6A14A), warm ivory white backgrounds, and deep charcoal text tones. Created custom logo lockups, digital social media kits, and luxury presentation boards that establish a clear, premium brand presence.",
+    desc: "Designed a complete luxury jewellery branding system for a handcrafted jewellery startup — including logo suite, brand identity design guidelines, social media creatives, and a Meta Ads campaign containing Instagram ads for jewellery that achieved a 40% spike in conversions and elevated perceived brand value.",
     images: ["eg_branding_mockup.png", "instagram_mockup.png", "packaging_mockup.png"],
     deliverables: ["Brand Identity Guidelines", "Logo Suite & Typography Styling", "Social Media Launch Creatives", "Premium Print Specifications"]
   },
   "instagram-campaign": {
-    title: "Instagram Social Campaign",
+    title: "Instagram Growth Campaign — Jewellery Brand Social Media Strategy",
     tag: "Social Media",
     client: "EverGlow Jewels",
     tools: "Illustrator, Canva, CapCut",
@@ -22,12 +22,12 @@ const projectData = {
     results: "+65% Engagement Rate",
     metricNum: "+65%",
     metricLabel: "Engagement Rate",
-    desc: "Developed a premium social media campaign focused on luxury brand positioning and customer engagement. Created highly-styled matte black and cream instagram posts featuring gold typography accents, curated reels templates, and story structures. Planned content calendars and optimized Meta Ads targeting cold and warm demographics, achieving substantial followers growth and organic reach.",
+    desc: "Planned and executed an Instagram marketing campaign for a luxury handmade jewellery brand — including feed grid design, Reels content strategy, and advanced Meta audience targeting, resulting in 65% higher engagement and 5,000+ organic reach.",
     images: ["instagram_mockup.png", "eg_branding_mockup.png"],
     deliverables: ["Curated 15-Post Instagram Grid Layout", "Custom Reel Cover Templates", "Meta Ad Creative Set", "Targeting & Optimization Report"]
   },
   "luxury-packaging": {
-    title: "Luxury Packaging Experience",
+    title: "Premium Unboxing Experience — Luxury Packaging Design",
     tag: "Packaging",
     client: "EverGlow Jewels",
     tools: "Illustrator, Figma, Print Tech",
@@ -35,7 +35,7 @@ const projectData = {
     results: "98% Positive Feedback",
     metricNum: "98%",
     metricLabel: "Positive Feedback",
-    desc: "Engineered a premium unboxing experience reflecting the brand's accessible luxury philosophy. Designed matte ivory paper gift boxes embossed with metallic gold foil logo guidelines and styled with warm champagne-gold satin ribbons. Standardized tissue paper wrapping, thank-you cards, and care instruction folders to transform a simple ecommerce product into a memorable personal milestone.",
+    desc: "Designed a high-end product packaging system using ivory textured boxes, satin gold ribbons, and hot-stamp metallic foil typography — achieving 98% positive customer feedback and significantly enhancing brand unboxing perception.",
     images: ["packaging_mockup.png", "eg_branding_mockup.png"],
     deliverables: ["Matte Ivory Jewellery Gift Box Spec", "Gold Foil Logo Stamp Layout", "Editorial Thank-You & Care Card Design", "Eco-friendly Material Sourcing Outline"]
   },
