@@ -9,7 +9,7 @@ const projectData = {
     results: "+40% Conversion Spike",
     metricNum: "+40%",
     metricLabel: "Conversion Increase",
-    desc: "Designed a complete luxury jewellery branding system for a handcrafted jewellery startup — including logo suite, brand identity design guidelines, social media creatives, and a Meta Ads campaign containing Instagram ads for jewellery that achieved a 40% spike in conversions and elevated perceived brand value.",
+    desc: "Designed a complete luxury jewellery branding system for a handcrafted jewellery startup — including logo suite, luxury brand identity design guidelines, social media creatives, and a Meta Ads campaign containing Instagram ads for jewellery that achieved a 40% spike in conversions and elevated perceived brand value.",
     images: ["eg_branding_mockup.png", "instagram_mockup.png", "packaging_mockup.png"],
     deliverables: ["Brand Identity Guidelines", "Logo Suite & Typography Styling", "Social Media Launch Creatives", "Premium Print Specifications"]
   },
@@ -22,7 +22,7 @@ const projectData = {
     results: "+65% Engagement Rate",
     metricNum: "+65%",
     metricLabel: "Engagement Rate",
-    desc: "Planned and executed an Instagram marketing campaign for a luxury handmade jewellery brand — including feed grid design, Reels content strategy, and advanced Meta audience targeting, resulting in 65% higher engagement and 5,000+ organic reach.",
+    desc: "As an Instagram marketing expert, I planned and executed an Instagram marketing campaign for a luxury handmade jewellery brand — including feed grid design, Reels content strategy, and advanced Meta audience targeting, resulting in 65% higher engagement and 5,000+ organic reach.",
     images: ["instagram_mockup.png", "eg_branding_mockup.png"],
     deliverables: ["Curated 15-Post Instagram Grid Layout", "Custom Reel Cover Templates", "Meta Ad Creative Set", "Targeting & Optimization Report"]
   },
